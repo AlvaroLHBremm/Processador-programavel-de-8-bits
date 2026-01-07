@@ -21,7 +21,7 @@ Instruções (Hexadecimal)
 * ADD_[30][XX]: Soma acumulador com endereço X de memória.
 * NOT_[40]____: Inverte acumulador.
 * AND_[50][XX]: Realiza operação AND bitwise com endereço X de memória.
-* OR _[60][XX]: Realizar operação OR bitwise com endereço X de memória.
+* OR__[60][XX]: Realizar operação OR bitwise com endereço X de memória.
 * JMP_[70][XX]: Pulo sem condição para X endereço de memória.
-* JZ _[71][XX]: Pulo para endereço X de memória quando acumulador igual a 0.
-* JN _[72][XX]: Pulo para endereço X de memória quando acumulador é negativo.
+* JZ__[71][XX]: Pulo para endereço X de memória quando acumulador igual a 0.
+* JN__[72][XX]: Pulo para endereço X de memória quando acumulador é negativo.
