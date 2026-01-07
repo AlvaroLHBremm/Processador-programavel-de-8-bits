@@ -1,6 +1,7 @@
 # Processador programavel de 8 bits.
 
 Projeto pessoal desenvolvido no simulador Deeds com o objetivo de simular a arquitetura de um processador hipotético de 8 bits. 
+Video descritivo e simulação: https://www.youtube.com/watch?v=KcWQU9CIYoI&t=136s
 
 Seções:
 * Vermelho:  Unidade de controle
@@ -13,4 +14,14 @@ Descrição:
 * Unidade de controle decodifica instruções e controla o fluxo de dados.
 * Unidade logica aritmética realiza calculos e sinaliza estados de flags.
 
-Video descritivo e simulação: https://www.youtube.com/watch?v=KcWQU9CIYoI&t=136s
+
+Instruções (Hexadecimal)
+* LDA [10][XX]: Carrega endereço X de memória ao acumulador.
+* STA [20][XX]: salva acumulador para endereço X de memória.
+* ADD [30][XX]: Soma acumulador com endereço X de memória.
+* NOT [40]    : Inverte acumulador.
+* AND [50][XX]: Realiza operação AND bitwise com endereço X de memória.
+* OR  [60][XX]: Realizar operação OR bitwise com endereço X de memória.
+* JMP [70][XX]: Pulo sem condição para X endereço de memória.
+* JZ  [71][XX]: Pulo para endereço X de memória quando acumulador igual a 0.
+* JN  [72][XX]: Pulo para endereço X de memória quando acumulador é negativo.
