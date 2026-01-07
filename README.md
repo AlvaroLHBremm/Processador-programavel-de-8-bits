@@ -3,6 +3,8 @@
 Projeto pessoal desenvolvido no simulador Deeds com o objetivo de simular a arquitetura de um processador hipotético de 8 bits. 
 Video descritivo e simulação: https://www.youtube.com/watch?v=KcWQU9CIYoI&t=136s
 
+![image alt](https://github.com/AlvaroLHBremm/Campo-Minado-QTcreator/blob/main/Campo%20minado.png?raw=true)
+
 Seções:
 * Vermelho:  Unidade de controle
 * Azul:      Unidade lógica arimética e flags
