@@ -3,9 +3,9 @@
 Projeto pessoal desenvolvido no simulador Deeds com o objetivo de simular a arquitetura de um processador hipotético de 8 bits. 
 
 Seções:
-  Vermelho:  Unidade de controle
-  Azul:      Unidade lógica arimética
-  Verde:     Controle de fluxo de memória
+* Vermelho:  Unidade de controle
+* Azul:      Unidade lógica arimética e flags
+* Verde:     Controle de fluxo de memória
 
 Descrição:
 * É possivel programar codigos em assembly/código de maquina para ser executado pelo processador.
@@ -13,4 +13,4 @@ Descrição:
 * Unidade de controle decodifica instruções e controla o fluxo de dados.
 * Unidade logica aritmética realiza calculos e sinaliza estados de flags.
 
-Video descritivo: https://www.youtube.com/watch?v=KcWQU9CIYoI&t=136s
+Video descritivo e simulação: https://www.youtube.com/watch?v=KcWQU9CIYoI&t=136s
