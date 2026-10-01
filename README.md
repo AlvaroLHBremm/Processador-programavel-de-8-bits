@@ -65,19 +65,16 @@ A arquitetura foi dividida em três blocos principais, destacados por cores no d
 
 Ao ligar o processador pelo botão "ligar", o programa armazenado na **ROM** é transferido para a **RAM** através de um circuito dedicado de inicialização.
 
-Ao acionar o botão Ligar, um contador de carregamento independente do contador de programa percorre sequencialmente 
-os endereços da ROM e da RAM simultaneamente. A cada ciclo, o conteúdo lido é transferido para o endereço correspondente da RAM.
-
 Após o acionamento do comando de execução, o processador inicia o ciclo de processamento das instruções armazenadas na RAM:
 
 1. o contador de programa indica o endereço da próxima instrução;
 2. a instrução é lida da memória;
 3. a unidade de controle decodifica o opcode;
-4. os sinais de controle necessários são gerados;
+4. os sinais de controle necessários são gerados pela unidade de controle através de maquinas de estado;
 5. a ULA, os registradores ou a memória executam a operação;
 6. o contador de programa é atualizado para a próxima instrução ou alterado por uma instrução de salto.
 
-Esse processo se repete durante toda a execução do programa.
+Esse processo de busca, decodificação e execução se repete durante toda a execução do programa.
 
 ## Conjunto de instruções
 
