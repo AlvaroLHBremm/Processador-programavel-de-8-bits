@@ -1,4 +1,4 @@
-# Processador Programável de 8 bits
+# Processador Programável de 8 bits - Parse M1
 
 Projeto pessoal desenvolvido no simulador de eletrônica digital **Deeds** com o objetivo de estudar, projetar e implementar a arquitetura de um processador programável de 8 bits.
 
